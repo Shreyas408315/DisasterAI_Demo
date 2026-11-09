@@ -1,0 +1,27 @@
+{
+  "threshold_baseline": {
+    "iou": 0.06660817214614755,
+    "dice": 0.10722051720607176,
+    "precision": 0.11596202799874782,
+    "recall": 0.15215561410932935,
+    "pixel_accuracy": 0.8863490221072309,
+    "validation_selected_threshold": 0.775,
+    "validation_selected_polarity": "dark"
+  },
+  "vanilla_unet": {
+    "iou": 0.018050963620100745,
+    "dice": 0.03435460533985065,
+    "precision": 0.018050963620100745,
+    "recall": 0.7499999999782901,
+    "pixel_accuracy": 0.018050963620100745,
+    "loss": 0.725455641746521
+  },
+  "proposed_attention_unet": {
+    "iou": 0.018050963620100745,
+    "dice": 0.03435460533985065,
+    "precision": 0.018050963620100745,
+    "recall": 0.7499999999782901,
+    "pixel_accuracy": 0.018050963620100745,
+    "loss": 0.7675671875476837
+  }
+}

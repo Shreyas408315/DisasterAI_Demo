@@ -1,0 +1,14 @@
+{
+  "data_root": "data",
+  "demo_synthetic": false,
+  "epochs": 1,
+  "batch_size": 2,
+  "image_size": 64,
+  "lr": 0.001,
+  "seed": 42,
+  "max_train": 8,
+  "max_val": 4,
+  "max_test": 4,
+  "device": "xpu",
+  "synthetic_demo": false
+}
